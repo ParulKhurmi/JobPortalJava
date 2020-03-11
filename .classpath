@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Kunwar&apos;s/Downloads/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="E:/JobPortal_ParulpreetKhurmi_c0722150_LizzaParmar_c0726331/lib/javax.servlet-3.0.0.v201112011016.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
