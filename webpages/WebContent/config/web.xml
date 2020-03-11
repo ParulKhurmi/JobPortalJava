@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 1.2//EN""http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app>
+    <display-name>First Servlet</display-name>
+       <servlet>
+        <servlet-name>Registerpage</servlet-name>
+        <servlet-class>Controller.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registerpage</servlet-name>
+        <url-pattern> /Register</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>Loginpage</servlet-name>
+        <servlet-class>Controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Loginpage</servlet-name>
+        <url-pattern> /Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>JobDetailpage</servlet-name>
+        <servlet-class>Controller.JobsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JobDetailpage</servlet-name>
+        <url-pattern> /Jobs</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>JobCreatepage</servlet-name>
+        <servlet-class>Controller.CreateJobsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JobCreatepage</servlet-name>
+        <url-pattern> /CreateJobs</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>ResponseToJobSeekerpage</servlet-name>
+        <servlet-class>Controller.ResponseToJobSeekerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseToJobSeekerpage</servlet-name>
+        <url-pattern> /ResponseToJobSeeker</url-pattern>
+    </servlet-mapping>    
+     <servlet>
+        <servlet-name>Applyjobpage</servlet-name>
+        <servlet-class>Controller.ApplyNowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Applyjobpage</servlet-name>
+        <url-pattern> /ApplyNow</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>Homepage</servlet-name>
+        <servlet-class>Controller.Search</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Homepage</servlet-name>
+        <url-pattern> /Search</url-pattern>
+    </servlet-mapping>
+ </web-app>
+
